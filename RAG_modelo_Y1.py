@@ -149,7 +149,7 @@ with gr.Blocks(theme=gr.themes.Soft(), title="Sistema RAG - Asistente de Documen
             init_status = gr.Textbox(label="Estado del Sistema", interactive=False)
         
         with gr.Column(scale=2):
-            gr.Markdown("### 💬 Chat con tus Documentos")
+            gr.Markdown("### 💬 Consulta la información que necesitas")
             chatbot = gr.Chatbot(
                 label="Conversación",
                 height=500,
