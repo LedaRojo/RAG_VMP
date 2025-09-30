@@ -18,26 +18,21 @@ jobs:
         with:
           python-version: "3.10"
 
-
-
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install huggingface_hub gradio
+          pip install -r requirements.txt
+          pip install gradio huggingface_hub
 
-      - name: Authenticate with Hugging Face
-        run: huggingface-cli login --token ${{ secrets.HF_TOKEN }}
-
-           
-           
-      - name: Push to Hugging Face Space
+      - name: Authenticate Hugging Face
         run: |
-         git config user.email "actions@github.com"
-         git config user.name "github-actions"
-         git add app.py requirements.txt
-         git commit -m "Auto-deploy clean app.py + requirements.txt" || echo "No changes to commit"
-         git push origin main
+          huggingface-cli login --token ${{ secrets.HF_TOKEN }}
+
+      - name: Deploy to Hugging Face Spaces
+        run: |
+          gradio deploy
+
+
 
     
 
