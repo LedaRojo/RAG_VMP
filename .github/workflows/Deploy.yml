@@ -17,8 +17,7 @@ jobs:
           mkdir -p paquete_hf
           cp app.py paquete_hf/
           cp requirements.txt paquete_hf/
-          echo "✅ Paquete creado. Contenido:"
-          ls -la paquete_hf/
+          echo "✅ Paquete creado."
 
       - name: 📤 Enviar solo lo necesario
         run: |
@@ -29,9 +28,9 @@ jobs:
           git config user.email "actions@github.com"
           git add .
           git commit -m "Deploy selectivo $(date)"
-          git push --force https://${{ secrets.HF_TOKEN }}@huggingface.co/spaces/LedaRojo/RAG_OpenAI_Python/tree/main
-          echo "✅ Solo app.py y requirements.txt enviados a HF"
-
+          git push --force https://${{ secrets.HF_TOKEN }}@huggingface.co/spaces/LedaRojo/RAG_OpenAI_Python
+          # ↑↑↑ SIN "main" al final ↑↑↑
+          echo "✅ Despliegue exitoso!"
 
 
     
