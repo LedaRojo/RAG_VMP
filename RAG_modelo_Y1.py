@@ -131,7 +131,7 @@ def clear_chat():
 with gr.Blocks(theme=gr.themes.Soft(), title="Sistema RAG - Asistente de Documentos") as demo:
     gr.Markdown(
         """
-        # 🤖 Sistema RAG - Asistente Inteligente de Documentos
+        # 🤖 Sistema RAG - Asistente Inteligente de Información Empresarial
         **Carga tus documentos y haz preguntas sobre su contenido**
         """
     )
