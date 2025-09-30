@@ -3,7 +3,7 @@ name: Deploy RAG App to Hugging Face
 on:
   push:
     branches:
-      - main   # cada vez que hagas push a main, se dispara el deploy
+      - main
 
 jobs:
   deploy:
@@ -24,18 +24,16 @@ jobs:
           pip install huggingface_hub gradio
 
       - name: Authenticate with Hugging Face
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: |
-          huggingface-cli login --token $HF_TOKEN
+        run: huggingface-cli login --token ${{ secrets.HF_TOKEN }}
 
       - name: Push to Hugging Face Space
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          huggingface-cli repo create LedaRojo/ModeloRAG --type=space --exist-ok
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git remote add space https://LedaRojo:$HF_TOKEN@huggingface.co/spaces/LedaRojo/ModeloRAG
-          git push space main --force
+          # Copiar tu archivo principal al nombre que Hugging Face espera
+          cp RAG_modelo_Y1.py app.py
+          cp Requirements.txt requirements.txt
+          # Subir todo el contenido al Space
+          huggingface-cli repo upload ./ \
+            --repo-id LedaRojo/ModeloRAG \
+            --repo-type space \
+            --token ${{ secrets.HF_TOKEN }}
 
