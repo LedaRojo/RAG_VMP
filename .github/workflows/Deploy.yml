@@ -29,7 +29,7 @@ jobs:
           git config user.email "actions@github.com"
           git add .
           git commit -m "Deploy selectivo $(date)"
-          git push --force https://${{ secrets.HF_TOKEN }}@huggingface.co/spaces/TU_USUARIO/TU_SPACE main
+          git push --force https://${{ secrets.HF_TOKEN }}@huggingface.co/spaces/LedaRojo/RAG_OpenAI_Python/tree/main
           echo "✅ Solo app.py y requirements.txt enviados a HF"
 
 
