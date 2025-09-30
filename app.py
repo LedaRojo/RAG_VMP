@@ -12,8 +12,8 @@ import tiktoken
 from dotenv import load_dotenv
 import tempfile
 
-# Cargar variables de entorno
-load_dotenv()
+
+##cargo variables de entorno desde un archivo .env
 
 # Configuración
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
