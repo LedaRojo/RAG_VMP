@@ -1,13 +1,13 @@
 # RAG_VMP
 El proyecto RAG para Gestión de riesgos informáticos
-1.	Resumen Ejecutivo
+<strong>Resumen Ejecutivo</strong>
 En el marco de nuestra iniciativa de transformación digital, proponemos el desarrollo de un asistente virtual inteligente especializado en seguridad de la información (BISO Virtual), basado en la tecnología OpenAI Este asistente estará diseñado para brindar soporte a los equipos de seguridad de la información, facilitando la gestión de políticas, regulaciones y riesgos de ciberseguridad.
 El BISO Virtual permitirá:
 ●	Automatizar tareas clave: Responderá de manera automática a consultas frecuentes, generará reportes de cumplimiento y hará seguimiento continuo de incidentes de seguridad.
 ●	Mejorar la eficiencia operativa: Proporcionará acceso inmediato y actualizado a normativas, mejores prácticas y tendencias de seguridad, optimizando el tiempo de los equipos.
 ●	Capacitar al personal: Ofrecerá formación continua y acceso instantáneo a conocimientos especializados para fortalecer las capacidades del equipo de seguridad.
 
-El presente modelo es el producto Mínimo viable usado para probar el funcionamiento de los modelos de OPenAI para el Chat conversacional, los embbeddings,  el tokenizador más la base de datos vectorial, permitiendo la carga en tiempo real de los docuementos. El siguiente paso (que no se presenta aquí) fue mantener todos los documentos en una memoria persistente en producción, a la cuál sólo se cargarán documentos nuevos.
+<strong>El presente modelo es el producto Mínimo viable usado para probar el funcionamiento de los modelos de OPenAI para el Chat conversacional, los embbeddings,  el tokenizador más la base de datos vectorial, permitiendo la carga en tiempo real de los docuementos. El siguiente paso (que no se presenta aquí) fue mantener todos los documentos en una memoria persistente en producción, a la cuál sólo se cargarán documentos nuevos.</strong>
 
 🤖 Sistema RAG - Asistente Inteligente de Documentos
 
