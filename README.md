@@ -105,4 +105,3 @@ Abrir en tu navegador: http://localhost:7860
 
 👉 Este proyecto es ideal para empresas, estudiantes o investigadores que necesitan extraer conocimiento rápidamente de grandes volúmenes de documentos de forma simple e intuitiva.
 
-¿Quieres que te lo arme ya en formato Markdown completo con emojis y secciones listas para pegar en tu README.md?
