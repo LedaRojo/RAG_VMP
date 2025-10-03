@@ -8,7 +8,7 @@ El BISO Virtual permitirá:
 ●	Mejorar la eficiencia operativa: Proporcionará acceso inmediato y actualizado a normativas, mejores prácticas y tendencias de seguridad, optimizando el tiempo de los equipos.
 ●	Capacitar al personal: Ofrecerá formación continua y acceso instantáneo a conocimientos especializados para fortalecer las capacidades del equipo de seguridad.
 
-<strong>El presente modelo es el producto Mínimo viable usado para probar el funcionamiento de los modelos de OPenAI para el Chat conversacional, los embbeddings,  el tokenizador más la base de datos vectorial, permitiendo la carga en tiempo real de los docuementos. El siguiente paso (que no se presenta aquí) fue mantener todos los documentos en una memoria persistente en producción, a la cuál sólo se cargarán documentos nuevos.</strong>
+<strong>El presente modelo es el Producto Mínimo Viable usado de este proyecto para probar el funcionamiento de los modelos de OPenAI para el Chat conversacional, los modelos de embbeddings,  el tokenizador y el de la base de datos vectorial, permitiendo inicialmente la carga en tiempo real de los docuementos. El siguiente paso del rpoyecto (que no está consignado aquí) fue mantener todos los documentos en una memoria persistente en producción, a la cuál sólo se cargarán documentos nuevos.</strong>
 
 🤖 Sistema RAG - Asistente Inteligente de Documentos
 
