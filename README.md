@@ -1,5 +1,6 @@
 # RAG_VMP
-El proyecto RAG para Gestión de riesgos informáticos
+<strong>El proyecto RAG para Gestión de riesgos informáticos.</strong>
+
 <strong>Resumen Ejecutivo</strong>
 En el marco de nuestra iniciativa de transformación digital, proponemos el desarrollo de un asistente virtual inteligente especializado en seguridad de la información (BISO Virtual), basado en la tecnología OpenAI Este asistente estará diseñado para brindar soporte a los equipos de seguridad de la información, facilitando la gestión de políticas, regulaciones y riesgos de ciberseguridad.
 El BISO Virtual permitirá:
