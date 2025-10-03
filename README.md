@@ -13,7 +13,7 @@ El presente modelo es el producto Mínimo viable usado para probar el funcionami
 
 Este proyecto implementa un sistema RAG (Retrieval-Augmented Generation) que permite interactuar con documentos de manera conversacional. El asistente responde preguntas en lenguaje natural basándose únicamente en el contenido de los documentos cargados, garantizando respuestas relevantes, concisas y específicas.
 
-🚀 Características principales
+🚀 <strong>Características principales</strong>
 
 Carga de documentos en múltiples formatos:
 
@@ -47,7 +47,7 @@ Chat interactivo para hacer preguntas y obtener respuestas inmediatas.
 
 Botones para limpiar conversación y reiniciar el sistema.
 
-⚙️ Flujo de trabajo
+⚙️ <strong>Flujo de trabajo</strong>
 
 Carga tus documentos desde la interfaz.
 
@@ -74,7 +74,7 @@ El asistente responde basándose en los fragmentos de texto más relevantes de l
 <strong>tiktoken</strong>
  – tokenización eficiente.
 
-▶️ Ejecución
+▶️ <strong>Ejecución</strong>
 
 Clonar el repositorio.
 
