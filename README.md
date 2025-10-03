@@ -57,7 +57,7 @@ Haz preguntas en lenguaje natural.
 
 El asistente responde basándose en los fragmentos de texto más relevantes de los documentos cargados.
 
-🛠️ Tecnologías utilizadas
+🛠️ <strong>Tecnologías utilizadas</strong>
 
 LangChain
  – orquestación de RAG.
