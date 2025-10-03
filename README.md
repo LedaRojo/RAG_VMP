@@ -59,19 +59,19 @@ El asistente responde basándose en los fragmentos de texto más relevantes de l
 
 🛠️ <strong>Tecnologías utilizadas</strong>
 
-LangChain
+<strong>LangChain</strong>
  – orquestación de RAG.
 
-ChromaDB
+<strong>ChromaDB</strong>
  – almacenamiento vectorial.
 
-OpenAI API
+<strong>OpenAI API</strong>
  – embeddings y generación de respuestas.
 
-Gradio
+<strong>Gradio</strong>
  – interfaz gráfica web.
 
-tiktoken
+<strong>tiktoken</strong>
  – tokenización eficiente.
 
 ▶️ Ejecución
