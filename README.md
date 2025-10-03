@@ -29,7 +29,7 @@ Segmentación de textos en chunks con solapamiento para preservar contexto.
 
 Creación de embeddings con OpenAI Embeddings (text-embedding-ada-002).
 
-Almacenamiento vectorial con ChromaDB para búsquedas semánticas.
+Almacenamiento vectorial (No persistente) con ChromaDB para búsquedas semánticas.
 
 Motor de consulta:
 
