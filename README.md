@@ -1,5 +1,5 @@
 # RAG_VMP
-<strong>Proyecto RAG para Gestión de riesgos informáticos.</strong>
+<strong>Proyecto RAG ((Retrieval Augmented Generation))  para Gestión de riesgos informáticos.</strong>
 <img width="930" height="488" alt="image" src="https://github.com/user-attachments/assets/d440046d-1c74-40f4-adc1-5dc11911c726" />
 
 <strong>Resumen Ejecutivo</strong>
