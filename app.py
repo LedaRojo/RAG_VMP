@@ -25,6 +25,8 @@ if not OPENAI_API_KEY:
 vectorstore = None
 retriever = None
 chain = None
+xxx = None
+
 
 def initialize_rag_system(files):
     """Inicializa el sistema RAG con los archivos subidos"""
